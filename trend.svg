@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360">
+<rect width="700" height="360" fill="#ffffff" rx="12"/>
+<text x="40" y="35" font-size="20" fill="#193333">月度总体风险分走势</text>
+<line x1="80" y1="280" x2="590" y2="280" stroke="#dce5e3" stroke-dasharray="4 4"/>
+<text x="45" y="285" font-size="13" fill="#708383">0</text>
+<line x1="80" y1="190" x2="590" y2="190" stroke="#dce5e3" stroke-dasharray="4 4"/>
+<text x="45" y="195" font-size="13" fill="#708383">30</text>
+<line x1="80" y1="115" x2="590" y2="115" stroke="#dce5e3" stroke-dasharray="4 4"/>
+<text x="45" y="120" font-size="13" fill="#708383">55</text>
+<line x1="80" y1="70" x2="590" y2="70" stroke="#dce5e3" stroke-dasharray="4 4"/>
+<text x="45" y="75" font-size="13" fill="#708383">70</text>
+<text x="100.0" y="305" text-anchor="middle" font-size="13" fill="#607575">2026-01</text>
+<text x="325.0" y="305" text-anchor="middle" font-size="13" fill="#607575">2026-02</text>
+<text x="550.0" y="305" text-anchor="middle" font-size="13" fill="#607575">2026-03</text>
+<polyline points="100.0,218.5 325.0,205.6 550.0,217.6" fill="none" stroke="#237a68" stroke-width="3"/>
+<circle cx="100.0" cy="218.5" r="6" fill="#237a68"><title>东区 2026-01：20.5 分</title></circle>
+<circle cx="325.0" cy="205.6" r="6" fill="#237a68"><title>东区 2026-02：24.8 分</title></circle>
+<circle cx="550.0" cy="217.6" r="6" fill="#237a68"><title>东区 2026-03：20.8 分</title></circle>
+<line x1="120" y1="335" x2="144" y2="335" stroke="#237a68" stroke-width="3"/><text x="152" y="340" font-size="13" fill="#193333">东区</text>
+<polyline points="100.0,158.8 325.0,112.0 550.0,141.1" fill="none" stroke="#c35446" stroke-width="3"/>
+<circle cx="100.0" cy="158.8" r="6" fill="#c35446"><title>南区 2026-01：40.4 分</title></circle>
+<circle cx="325.0" cy="112.0" r="6" fill="#c35446"><title>南区 2026-02：56.0 分</title></circle>
+<circle cx="550.0" cy="141.1" r="6" fill="#c35446"><title>南区 2026-03：46.3 分</title></circle>
+<line x1="300" y1="335" x2="324" y2="335" stroke="#c35446" stroke-width="3"/><text x="332" y="340" font-size="13" fill="#193333">南区</text>
+<polyline points="100.0,244.6 325.0,236.5 550.0,167.2" fill="none" stroke="#437ec2" stroke-width="3"/>
+<circle cx="100.0" cy="244.6" r="6" fill="#437ec2"><title>西区 2026-01：11.8 分</title></circle>
+<circle cx="325.0" cy="236.5" r="6" fill="#437ec2"><title>西区 2026-02：14.5 分</title></circle>
+<circle cx="550.0" cy="167.2" r="6" fill="#437ec2"><title>西区 2026-03：37.6 分</title></circle>
+<line x1="480" y1="335" x2="504" y2="335" stroke="#437ec2" stroke-width="3"/><text x="512" y="340" font-size="13" fill="#193333">西区</text>
+</svg>

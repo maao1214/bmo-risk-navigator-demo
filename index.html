@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BMO 风险导航</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", sans-serif;
+       background: #f5f7f7; color: #193333; margin: 0; padding: 40px 20px; }
+main { max-width: 900px; margin: auto; }
+h1 { margin-bottom: 8px; }
+p { color: #607575; line-height: 1.7; }
+.panel { background: white; padding: 28px; border-radius: 12px;
+         box-shadow: 0 8px 30px #18333312; overflow-x: auto; }
+table { width: 100%; border-collapse: separate; border-spacing: 8px; }
+th, td { padding: 18px; text-align: center; border-radius: 8px; }
+thead th { color: #617575; font-size: 14px; }
+tbody th { background: #edf2f2; white-space: nowrap; }
+td strong { display: block; font-size: 25px; }
+td small { display: block; margin-top: 4px; }
+.red { background: #fbe2df; color: #9b3429; }
+.yellow { background: #fff0c9; color: #8a6514; }
+.green { background: #dff1e4; color: #246b42; }
+.missing { background: #eeeeee; color: #777777; }
+</style>
+</head>
+<body>
+<main>
+<h1>BMO 全域风险导航</h1>
+<p>虚拟数据演示 · 区域与月份风险热力图</p>
+<div class="panel">
+<table>
+<thead><tr><th>区域</th><th>2026-01</th><th>2026-02</th><th>2026-03</th></tr></thead>
+<tbody><tr><th>东区</th><td class='green'><strong>20.5</strong><small>绿</small></td><td class='green'><strong>24.8</strong><small>绿</small></td><td class='green'><strong>20.8</strong><small>绿</small></td></tr><tr><th>南区</th><td class='yellow'><strong>40.4</strong><small>黄</small></td><td class='red'><strong>56.0</strong><small>红</small></td><td class='yellow'><strong>46.3</strong><small>黄</small></td></tr><tr><th>西区</th><td class='green'><strong>11.8</strong><small>绿</small></td><td class='green'><strong>14.5</strong><small>绿</small></td><td class='yellow'><strong>37.6</strong><small>黄</small></td></tr></tbody>
+</table>
+</div>
+<p<h2>区域风险趋势</h2>
+<div class="panel"><img src="trend.svg" alt="三个区域月度风险分趋势图" style="display:block;width:100%;height:auto"></div>颜色依据演示模型：绿 &lt; 30 分；黄 30–不足 55 分；红 ≥ 55 分。</p>
+<!-- PROFILE START --><section class="panel" style="margin-top:24px"><h2>最新风险画像 · 2026-03</h2><p>本月最高风险区域为南区，46.3 分。 西区较上月变化 +23.1 分。</p><table><thead><tr><th>区域</th><th>风险分</th><th>月度变化</th><th>最高领域</th><th>建议关注</th></tr></thead><tbody><tr><th>南区</th><td class='yellow'><strong>46.3</strong><small>黄</small></td><td>-9.7 分</td><td>管理</td><td>审批与关键岗位</td></tr><tr><th>西区</th><td class='yellow'><strong>37.6</strong><small>黄</small></td><td>+23.1 分</td><td>销售</td><td>退货与逾期应收</td></tr><tr><th>东区</th><td class='green'><strong>20.8</strong><small>绿</small></td><td>-4.0 分</td><td>销售</td><td>退货与逾期应收</td></tr></tbody></table><p><a href="risk_profile.md" download>下载完整风险画像报告</a></p></section><!-- PROFILE END -->
+</main>
+</body>
+</html>
